@@ -1,80 +1,102 @@
-*{
-    font-family: sans-serif;
-    background-color: white;
-    box-sizing: border-box;
+* {
+	font-family: sans-serif;
+	background-color: white;
+	box-sizing: border-box;
 }
-header{
-    background-color: rgb(40, 73, 73);
+header {
+	background-color: rgb(40, 73, 73);
 }
 nav {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
-span{
-    color: rgb(182, 71, 82);
+span {
+	color: rgb(0, 0, 0);
+	text-decoration: underline;
 }
-#logo{
-    background-color: white;
+#logo {
+	background-color: white;
 }
 ul {
-    display : flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 ul li {
-    animation: ease-in;
-    transition: 0.6s;
-    text-decoration: underline;
-    cursor: pointer;
-    display : flex;
-    margin: 20px;
-    justify-content: space-between;
+	animation: ease-in;
+	transition: 0.6s;
+	text-decoration: underline;
+	cursor: pointer;
+	display: flex;
+	margin: 20px;
+	justify-content: space-between;
 }
-ul li:hover{
-    text-decoration: none;
-    color: green;
-
+ul li:hover {
+	text-decoration: none;
+	color: green;
 }
 h1 {
-    text-align: center;
-    font-size: 100px;
+	text-align: center;
+	font-size: 100px;
 }
-.main{
-    text-align: center;
-    background-color: rgb(40, 73, 73);
+.main {
+	text-align: center;
+	background-color: rgb(40, 73, 73);
+}
 
+.btn {
+	margin-bottom: 30px;
+	padding: 10px;
+	border: solid 1px white;
+	text-align: center;
+	font-size: 100px;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+	text-align: center;
+	animation: ease-in;
+	transition: 0.6s;
 }
 
-.btn{
-    margin-bottom: 30px;
-    padding : 10px;
-    border: solid 1px white;
-    text-align: center;
-    font-size: 100px;
-    color: white;
-    background-color: black;
-    cursor: pointer;
-    text-align: center;
-    animation: ease-in;
-    transition: 0.6s;
-}
 .btn:hover {
-    font-size: 105px;
+	font-size: 105px;
 }
 
+/* sweatshirt  and shoes */
 
-/* sweatshirt */
+.containHoodie {
+	text-align: center;
+}
 
 .sweat_shirt {
- margin-bottom: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-evenly;
 }
 
-h2{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align : center;
+.shoes {
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-evenly;
 }
-img{
-    width: 300px;
-    margin: 0 80px;
-    text-align: center;;
+
+h2 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+img {
+	cursor: pointer;
+	width: 300px;
+	margin: 0 50px;
+	text-align: center;
+}
+.hoodie {
+	padding: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+	ul li {
+		display: none;
+	}
 }
