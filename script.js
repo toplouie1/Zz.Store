@@ -11,7 +11,4 @@ async function fetchData() {
 	let data = await res.json();
 	console.log(data);
 }
-
-fetchData();
-fetchData();
 fetchData();
